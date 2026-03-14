@@ -5,19 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MavenSource Global | Your Trusted Strategic Sourcing Partner</title>
   <meta name="description" content="MavenSource Global connects buyers and suppliers across international markets. Strategic sourcing, procurement advisory, and market intelligence.">
-  <link rel="icon" type="image/svg+xml" href="images/logo-icon.svg">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
   <header class="site-header">
     <div class="container">
       <a href="index.html" class="site-logo">
-        <img src="images/logo-icon-white.svg" alt="" class="logo-icon">
-        <span class="brand">MavenSource Global</span>
+        <img src="images/logo.png" alt="MavenSource Global" class="logo-img">
       </a>
-      <nav>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <nav class="nav-menu">
         <ul>
           <li><a href="#about">About</a></li>
+          <li><a href="#leadership">Leadership</a></li>
           <li><a href="#vision">Vision & Mission</a></li>
           <li><a href="#values">Values</a></li>
           <li><a href="#services">Services</a></li>
@@ -34,9 +44,9 @@
 
   <section class="hero">
     <div class="container">
-      <h1 class="hero-headline">Enabling <span class="hero-accent">Smarter</span> Procurement Decisions</h1>
-      <div class="gold-line"></div>
-      <p class="hero-sub"><span class="hero-maroon">Strategic Global Sourcing</span> & Supply Chain Advisory</p>
+      <h1 class="hero-headline animate-fade-up">Enabling <span class="hero-accent">Smarter</span> Procurement Decisions</h1>
+      <div class="gold-line animate-scale-in"></div>
+      <p class="hero-sub animate-fade-up animate-delay-1"><span class="hero-maroon">Strategic Global Sourcing</span> & Supply Chain Advisory</p>
     </div>
   </section>
 
@@ -46,73 +56,106 @@
     </svg>
   </div>
 
-  <section id="about" class="section-alt">
+  <section id="about" class="section-about">
     <div class="container">
-      <div class="section-header">
+      <div class="section-header section-header-left animate-on-scroll" data-delay="0">
         <h2 class="section-title">About</h2>
         <div class="gold-divider"></div>
         <div class="maroon-divider"></div>
       </div>
-      <div class="about-content">
+      <div class="about-layout animate-on-scroll" data-delay="0">
         <p>MavenSource Global is a global sourcing, procurement and market intelligence consultancy that connects buyers and suppliers across international markets. We specialize in identifying reliable manufacturers, facilitating strategic negotiations, and helping businesses secure the right products at competitive terms.</p>
         <p>With strong expertise in procurement, supplier relationship management, and contract negotiation, MavenSource Global acts as a trusted bridge between sellers and buyers, ensuring transparent communication, fair negotiations, and successful commercial outcomes. By leveraging strong procurement expertise and supplier networks, we support organizations in sourcing products efficiently from key global manufacturing hubs.</p>
         <p>In addition to sourcing and negotiation, MavenSource Global provides market intelligence insights, including supplier landscape analysis, price benchmarking, demand trends, and sourcing strategy guidance. These insights help businesses make informed procurement decisions and reduce supply chain risks.</p>
         <p>With a focus on professionalism, trust, and value creation, MavenSource Global aims to simplify global trade and build long-term partnerships between buyers and suppliers.</p>
         <p>We support companies in sourcing products from key manufacturing markets such as APAC, EMEA, North America, India, China, Vietnam, Taiwan, and other major supply hubs. By combining market knowledge with professional negotiation and procurement strategies, we help clients reduce sourcing risks and achieve better commercial outcomes.</p>
-        <p><strong>At MavenSource Global, our mission is simple: connect the right partners, negotiate the right value, and deliver successful global deals.</strong></p>
+        <p class="about-highlight"><strong>At MavenSource Global, our mission is simple: connect the right partners, negotiate the right value, and deliver successful global deals.</strong></p>
       </div>
     </div>
   </section>
 
-  <section id="vision">
+  <section id="leadership" class="section-leadership">
     <div class="container">
-      <div class="section-header">
+      <div class="section-header section-header-left animate-on-scroll" data-delay="0">
+        <h2 class="section-title">Leadership</h2>
+        <div class="gold-divider"></div>
+        <div class="maroon-divider"></div>
+      </div>
+      <div class="founder-layout animate-on-scroll" data-delay="0">
+        <div class="founder-sidebar">
+          <h3>Kandula Manikumar</h3>
+          <p class="founder-title">Founder – MavenSource Global</p>
+          <ul class="founder-credentials">
+            <li><i class="fa-solid fa-graduation-cap"></i> MBA in Finance</li>
+            <li><i class="fa-solid fa-certificate"></i> Certified Supply Chain Specialist (IIPMR, USA)</li>
+            <li><i class="fa-solid fa-briefcase"></i> 10+ years in procurement & sourcing</li>
+          </ul>
+        </div>
+        <div class="founder-content">
+          <p>Kandula Manikumar is the Founder of MavenSource Global, a global sourcing and procurement advisory firm dedicated to connecting businesses with reliable suppliers across international markets.</p>
+          <p>He holds an MBA in Finance and is also a Certified Supply Chain Specialist from the International Institute of Procurement and Market Research (IIPMR), USA. With 10+ years of professional experience in procurement, strategic sourcing, and supplier relationship management, Manikumar has developed strong expertise in global supply chain operations and procurement strategy.</p>
+          <p>During his career, he has worked with leading multinational companies (MNCs), gaining valuable experience in managing global suppliers, negotiating contracts, and supporting international procurement initiatives. His expertise includes global product sourcing, market intelligence, supplier identification, and commercial negotiations.</p>
+          <p>Through MavenSource Global, Manikumar focuses on simplifying international sourcing by acting as a trusted intermediary between buyers and suppliers, facilitating transparent negotiations, and enabling successful global trade partnerships.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="vision" class="section-vision">
+    <div class="container">
+      <div class="section-header animate-on-scroll" data-delay="0">
         <h2 class="section-title">Vision & Mission</h2>
         <div class="gold-divider"></div>
         <div class="maroon-divider"></div>
       </div>
-
-      <div class="vision-mission">
-        <h3>Vision</h3>
-        <p>To become a trusted global partner in sourcing, procurement, and market intelligence by connecting businesses with reliable suppliers and enabling successful international trade.</p>
+      <div class="vision-grid animate-on-scroll" data-delay="0">
+        <div class="vision-card">
+          <div class="vision-icon-wrap"><i class="fa-solid fa-eye"></i></div>
+          <h3>Vision</h3>
+          <p>To become a trusted global partner in sourcing, procurement, and market intelligence by connecting businesses with reliable suppliers and enabling successful international trade.</p>
+        </div>
+        <div class="mission-card">
+          <div class="vision-icon-wrap"><i class="fa-solid fa-bullseye"></i></div>
+          <h3>Mission</h3>
+          <p>Our mission is to simplify global sourcing by providing expert negotiation, supplier intelligence, and procurement advisory that help businesses make informed decisions and build sustainable supplier relationships.</p>
+        </div>
       </div>
-
-      <div class="vision-mission">
-        <h3>Mission</h3>
-        <p>Our mission is to simplify global sourcing by providing expert negotiation, supplier intelligence, and procurement advisory that help businesses make informed decisions and build sustainable supplier relationships.</p>
-      </div>
-
-      <div class="brand-statement">
+      <div class="brand-statement animate-on-scroll" data-delay="0">
         "MavenSource Global <strong>connects markets</strong>, <strong>negotiates value</strong>, and <strong>delivers intelligent sourcing solutions</strong> for global businesses."
       </div>
     </div>
   </section>
 
-  <section id="values" class="section-alt">
+  <section id="values" class="section-values">
     <div class="container">
-      <div class="section-header">
+      <div class="section-header animate-on-scroll" data-delay="0">
         <h2 class="section-title">Core Values</h2>
         <div class="gold-divider"></div>
         <div class="maroon-divider"></div>
       </div>
-      <div class="values-grid">
-        <div class="value-card value-border-green">
+      <div class="values-bento">
+        <div class="value-item value-featured value-border-green animate-on-scroll" data-delay="0">
+          <i class="fa-solid fa-shield-halved value-icon"></i>
           <h4>Integrity</h4>
           <p>We promote transparent and ethical dealings between buyers and suppliers.</p>
         </div>
-        <div class="value-card value-border-maroon">
+        <div class="value-item value-border-maroon animate-on-scroll" data-delay="1">
+          <i class="fa-solid fa-handshake value-icon"></i>
           <h4>Trust</h4>
           <p>Building long-term partnerships through reliable sourcing and fair negotiations.</p>
         </div>
-        <div class="value-card value-border-gold">
+        <div class="value-item value-border-gold animate-on-scroll" data-delay="2">
+          <i class="fa-solid fa-lightbulb value-icon"></i>
           <h4>Expertise</h4>
           <p>Leveraging procurement knowledge and market intelligence to deliver strategic value.</p>
         </div>
-        <div class="value-card value-border-green">
+        <div class="value-item value-border-green animate-on-scroll" data-delay="3">
+          <i class="fa-solid fa-globe value-icon"></i>
           <h4>Global Connectivity</h4>
           <p>Bridging international markets and enabling smooth trade partnerships.</p>
         </div>
-        <div class="value-card value-border-maroon">
+        <div class="value-item value-border-maroon animate-on-scroll" data-delay="4">
+          <i class="fa-solid fa-chart-line value-icon"></i>
           <h4>Value Creation</h4>
           <p>Helping clients achieve better pricing, quality, and supplier reliability.</p>
         </div>
@@ -120,39 +163,46 @@
     </div>
   </section>
 
-  <section id="services">
+  <section id="services" class="section-services">
     <div class="container">
-      <div class="section-header">
+      <div class="section-header section-header-left animate-on-scroll" data-delay="0">
         <h2 class="section-title">Key Services We Provide</h2>
         <div class="gold-divider"></div>
         <div class="maroon-divider"></div>
       </div>
       <div class="services-grid">
-        <div class="service-card service-border-green">
+        <div class="service-box service-border-green animate-on-scroll" data-delay="0">
+          <i class="fa-solid fa-earth-americas service-icon"></i>
           <h3>Global Product Sourcing</h3>
           <p>Identifying and connecting businesses with reliable manufacturers and suppliers across global markets, including India, China, Vietnam, Taiwan, and other key sourcing hubs.</p>
         </div>
-        <div class="service-card service-border-maroon">
+        <div class="service-box service-border-maroon animate-on-scroll" data-delay="1">
+          <i class="fa-solid fa-briefcase service-icon"></i>
           <h3>Procurement Advisory</h3>
           <p>Providing strategic guidance on procurement processes, supplier selection, cost optimization, and sourcing strategies to help organizations improve purchasing efficiency.</p>
         </div>
-        <div class="service-card service-border-gold">
+        <div class="service-box service-border-gold animate-on-scroll" data-delay="2">
+          <i class="fa-solid fa-chart-pie service-icon"></i>
           <h3>Market Intelligence</h3>
           <p>Delivering insights on supplier landscapes, pricing trends, and industry developments to support informed sourcing and procurement decisions.</p>
         </div>
-        <div class="service-card service-border-green">
+        <div class="service-box service-border-green animate-on-scroll" data-delay="3">
+          <i class="fa-solid fa-magnifying-glass service-icon"></i>
           <h3>Supplier Identification & Verification</h3>
           <p>Helping businesses identify trustworthy suppliers and assess their capabilities, quality standards, and reliability before entering into business relationships.</p>
         </div>
-        <div class="service-card service-border-maroon">
+        <div class="service-box service-border-maroon animate-on-scroll" data-delay="4">
+          <i class="fa-solid fa-comments service-icon"></i>
           <h3>Negotiation & Deal Facilitation</h3>
           <p>Acting as a trusted intermediary between buyers and suppliers to facilitate transparent communication and negotiate mutually beneficial commercial agreements.</p>
         </div>
-        <div class="service-card service-border-gold">
+        <div class="service-box service-border-gold animate-on-scroll" data-delay="5">
+          <i class="fa-solid fa-people-group service-icon"></i>
           <h3>Supplier Relationship Management</h3>
           <p>Supporting businesses in building strong, long-term supplier partnerships to ensure consistency, reliability, and sustainable supply chains.</p>
         </div>
-        <div class="service-card service-border-green">
+        <div class="service-box service-border-green animate-on-scroll" data-delay="6">
+          <i class="fa-solid fa-truck-fast service-icon"></i>
           <h3>Global Trade & Sourcing Support</h3>
           <p>Assisting companies with sourcing coordination, supplier communication, and supply chain alignment for smooth international procurement operations.</p>
         </div>
@@ -160,67 +210,67 @@
     </div>
   </section>
 
-  <section id="industries" class="section-alt">
+  <section id="industries" class="section-industries">
     <div class="container">
-      <div class="section-header">
+      <div class="section-header animate-on-scroll" data-delay="0">
         <h2 class="section-title">Industries We Serve</h2>
         <div class="gold-divider"></div>
         <div class="maroon-divider"></div>
         <p class="section-subtitle">MavenSource Global supports a diverse range of industries by connecting businesses with reliable suppliers and global manufacturing partners worldwide.</p>
       </div>
-      <div class="industries-grid">
-        <div class="industry-item industry-icon-green">
-          <div class="industry-icon">🏭</div>
-          <div>
+      <div class="industries-zigzag">
+        <div class="industry-row industry-row-left industry-icon-green animate-on-scroll" data-delay="0">
+          <div class="industry-icon"><i class="fa-solid fa-industry"></i></div>
+          <div class="industry-text">
             <h4>Manufacturing & Industrial</h4>
             <p>Sourcing industrial components, machinery parts, tools, and raw materials required for manufacturing and production processes.</p>
           </div>
         </div>
-        <div class="industry-item industry-icon-maroon">
-          <div class="industry-icon">🏗</div>
-          <div>
+        <div class="industry-row industry-row-right industry-icon-maroon animate-on-scroll" data-delay="1">
+          <div class="industry-icon"><i class="fa-solid fa-hard-hat"></i></div>
+          <div class="industry-text">
             <h4>Construction</h4>
             <p>Supporting construction companies with the sourcing of building materials, construction equipment, machinery, and project-related supplies.</p>
           </div>
         </div>
-        <div class="industry-item industry-icon-gold">
-          <div class="industry-icon">🚗</div>
-          <div>
+        <div class="industry-row industry-row-left industry-icon-gold animate-on-scroll" data-delay="2">
+          <div class="industry-icon"><i class="fa-solid fa-car"></i></div>
+          <div class="industry-text">
             <h4>Automotive</h4>
             <p>Identifying and sourcing automotive components, vehicle parts, tools, and specialized equipment for automotive businesses and suppliers.</p>
           </div>
         </div>
-        <div class="industry-item industry-icon-green">
-          <div class="industry-icon">🛒</div>
-          <div>
+        <div class="industry-row industry-row-right industry-icon-green animate-on-scroll" data-delay="3">
+          <div class="industry-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+          <div class="industry-text">
             <h4>Retail & E-Commerce</h4>
             <p>Helping retailers and online businesses source finished consumer goods, private label products, and merchandise from global manufacturers.</p>
           </div>
         </div>
-        <div class="industry-item industry-icon-maroon">
-          <div class="industry-icon">💻</div>
-          <div>
+        <div class="industry-row industry-row-left industry-icon-maroon animate-on-scroll" data-delay="4">
+          <div class="industry-icon"><i class="fa-solid fa-microchip"></i></div>
+          <div class="industry-text">
             <h4>Technology & Electronics</h4>
             <p>Facilitating sourcing of electronic components, devices, and technology equipment for businesses operating in the technology sector.</p>
           </div>
         </div>
-        <div class="industry-item industry-icon-gold">
-          <div class="industry-icon">🏥</div>
-          <div>
+        <div class="industry-row industry-row-right industry-icon-gold animate-on-scroll" data-delay="5">
+          <div class="industry-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+          <div class="industry-text">
             <h4>Healthcare & Medical Supplies</h4>
             <p>Supporting healthcare providers and distributors with sourcing of medical supplies, equipment, and healthcare consumables from reliable manufacturers.</p>
           </div>
         </div>
-        <div class="industry-item industry-icon-green">
-          <div class="industry-icon">🧴</div>
-          <div>
+        <div class="industry-row industry-row-left industry-icon-green animate-on-scroll" data-delay="6">
+          <div class="industry-icon"><i class="fa-solid fa-basket-shopping"></i></div>
+          <div class="industry-text">
             <h4>Consumer Products</h4>
             <p>Helping businesses source a wide range of consumer goods including household items, lifestyle products, and packaged goods.</p>
           </div>
         </div>
-        <div class="industry-item industry-icon-maroon">
-          <div class="industry-icon">🔧</div>
-          <div>
+        <div class="industry-row industry-row-right industry-icon-maroon animate-on-scroll" data-delay="7">
+          <div class="industry-icon"><i class="fa-solid fa-laptop"></i></div>
+          <div class="industry-text">
             <h4>IT Hardware & Software</h4>
             <p>Providing sourcing support for IT hardware such as servers, networking equipment, laptops, and enterprise technology solutions, along with guidance on relevant software solutions where required.</p>
           </div>
@@ -229,59 +279,79 @@
     </div>
   </section>
 
-  <section id="why">
+  <section id="why" class="section-why">
     <div class="container">
-      <div class="section-header">
+      <div class="section-header animate-on-scroll" data-delay="0">
         <h2 class="section-title">Why Choose MavenSource Global</h2>
         <div class="gold-divider"></div>
         <div class="maroon-divider"></div>
       </div>
-      <div class="why-grid">
-        <div class="why-card why-icon-green">
-          <div class="icon">🌐</div>
-          <h4>Global Supplier Network</h4>
-          <p>MavenSource Global provides access to an extensive network of trusted suppliers and manufacturers across multiple continents, enabling businesses to source quality products at competitive global prices.</p>
+      <div class="why-timeline">
+        <div class="why-step why-icon-green animate-on-scroll" data-delay="0">
+          <span class="why-step-num">1</span>
+          <div class="why-step-content">
+            <div class="icon"><i class="fa-solid fa-globe"></i></div>
+            <h4>Global Supplier Network</h4>
+            <p>MavenSource Global provides access to an extensive network of trusted suppliers and manufacturers across multiple continents, enabling businesses to source quality products at competitive global prices.</p>
+          </div>
         </div>
-        <div class="why-card why-icon-maroon">
-          <div class="icon">📊</div>
-          <h4>Industry Expertise</h4>
-          <p>With strong experience in procurement, strategic sourcing, and supplier negotiations, we understand the unique requirements of different industries and deliver sourcing solutions tailored to each client's needs.</p>
+        <div class="why-step why-icon-maroon animate-on-scroll" data-delay="1">
+          <span class="why-step-num">2</span>
+          <div class="why-step-content">
+            <div class="icon"><i class="fa-solid fa-chart-line"></i></div>
+            <h4>Industry Expertise</h4>
+            <p>With strong experience in procurement, strategic sourcing, and supplier negotiations, we understand the unique requirements of different industries and deliver sourcing solutions tailored to each client's needs.</p>
+          </div>
         </div>
-        <div class="why-card why-icon-gold">
-          <div class="icon">🔗</div>
-          <h4>Reliable Supply Chain Support</h4>
-          <p>We help businesses streamline the sourcing process by facilitating supplier communication, negotiation, and coordination to ensure smooth and reliable supply chain operations.</p>
+        <div class="why-step why-icon-gold animate-on-scroll" data-delay="2">
+          <span class="why-step-num">3</span>
+          <div class="why-step-content">
+            <div class="icon"><i class="fa-solid fa-link"></i></div>
+            <h4>Reliable Supply Chain Support</h4>
+            <p>We help businesses streamline the sourcing process by facilitating supplier communication, negotiation, and coordination to ensure smooth and reliable supply chain operations.</p>
+          </div>
         </div>
-        <div class="why-card why-icon-green">
-          <div class="icon">✓</div>
-          <h4>End-to-End Sourcing Assistance</h4>
-          <p>Our services extend beyond supplier identification. We support negotiations, supplier engagement, and coordination with logistics partners to simplify the procurement process for our clients.</p>
+        <div class="why-step why-icon-green animate-on-scroll" data-delay="3">
+          <span class="why-step-num">4</span>
+          <div class="why-step-content">
+            <div class="icon"><i class="fa-solid fa-check-double"></i></div>
+            <h4>End-to-End Sourcing Assistance</h4>
+            <p>Our services extend beyond supplier identification. We support negotiations, supplier engagement, and coordination with logistics partners to simplify the procurement process for our clients.</p>
+          </div>
         </div>
-        <div class="why-card why-icon-maroon">
-          <div class="icon">♥</div>
-          <h4>Client-Centric Approach</h4>
-          <p>At MavenSource Global, we prioritize long-term partnerships and provide responsive, professional service to ensure that our clients receive value-driven sourcing solutions at every stage of the process.</p>
+        <div class="why-step why-icon-maroon animate-on-scroll" data-delay="4">
+          <span class="why-step-num">5</span>
+          <div class="why-step-content">
+            <div class="icon"><i class="fa-solid fa-heart"></i></div>
+            <h4>Client-Centric Approach</h4>
+            <p>At MavenSource Global, we prioritize long-term partnerships and provide responsive, professional service to ensure that our clients receive value-driven sourcing solutions at every stage of the process.</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="contact" class="contact-section">
+  <section id="contact" class="section-contact contact-section">
     <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Contact</h2>
-        <div class="gold-divider"></div>
-      </div>
-      <p>Get in touch with us for strategic sourcing, procurement advisory, or market intelligence services.</p>
-      <div class="contact-links">
-        <a href="mailto:contact@mavensourceglobal.com">📧 contact@mavensourceglobal.com</a>
-        <a href="https://www.linkedin.com/company/mavensource-global" target="_blank" rel="noopener">LinkedIn</a>
+      <div class="contact-layout">
+        <div class="contact-info animate-on-scroll" data-delay="0">
+          <h2 class="section-title">Get in Touch</h2>
+          <div class="gold-divider"></div>
+          <p>Reach out for strategic sourcing, procurement advisory, or market intelligence services. We're here to connect you with the right partners.</p>
+        </div>
+        <div class="contact-actions animate-on-scroll" data-delay="0">
+          <a href="mailto:contact@mavensourceglobal.com" class="contact-btn contact-email"><i class="fa-solid fa-envelope"></i> contact@mavensourceglobal.com</a>
+          <a href="https://www.linkedin.com/in/mani-kumar-5650/" target="_blank" rel="noopener" class="contact-btn contact-linkedin"><i class="fa-brands fa-linkedin-in"></i> Connect on LinkedIn</a>
+        </div>
       </div>
     </div>
   </section>
 
   <footer class="site-footer">
     <div class="container">
+      <a href="index.html" class="footer-logo">
+        <img src="images/logo.png" alt="MavenSource Global" class="logo-img">
+      </a>
       <p class="footer-motto">Enabling <em>Smarter</em> Procurement Decisions</p>
       <div class="links">
         <a href="privacy.html">Privacy Policy</a>
@@ -294,6 +364,44 @@
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Scroll-triggered animations
+    const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const delay = entry.target.dataset.delay || 0;
+          entry.target.style.animationDelay = `${delay * 0.1}s`;
+          entry.target.classList.add('animate-visible');
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+
+    // Mobile nav toggle
+    const navToggle = document.querySelector('.nav-toggle');
+    const navMenu = document.querySelector('.nav-menu');
+    function closeNav() {
+      if (navToggle) navToggle.setAttribute('aria-expanded', 'false');
+      if (navMenu) navMenu.classList.remove('is-open');
+      document.body.classList.remove('nav-open');
+      const overlay = document.getElementById('navOverlay');
+      if (overlay) overlay.setAttribute('aria-hidden', 'true');
+    }
+    if (navToggle && navMenu) {
+      navToggle.addEventListener('click', () => {
+        const isOpen = navToggle.getAttribute('aria-expanded') === 'true';
+        navToggle.setAttribute('aria-expanded', !isOpen);
+        navMenu.classList.toggle('is-open');
+        document.body.classList.toggle('nav-open', !isOpen);
+        const overlay = document.getElementById('navOverlay');
+        if (overlay) overlay.setAttribute('aria-hidden', isOpen);
+      });
+      navMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', closeNav));
+      const overlay = document.getElementById('navOverlay');
+      if (overlay) overlay.addEventListener('click', closeNav);
+    }
   </script>
 </body>
 </html>
