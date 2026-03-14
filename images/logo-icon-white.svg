@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="gw" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8C547"/>
+      <stop offset="100%" style="stop-color:#D4AF37"/>
+    </linearGradient>
+  </defs>
+  <!-- Crate/box - procurement -->
+  <rect x="14" y="22" width="36" height="28" rx="2" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.5)" stroke-width="1"/>
+  <path d="M14 30 L50 30" stroke="rgba(255,255,255,0.35)" stroke-width="1"/>
+  <!-- Arrow left - inbound logistics -->
+  <path d="M6 36 L18 36" fill="none" stroke="url(#gw)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M18 36 L12 32 L12 40 Z" fill="url(#gw)"/>
+  <!-- Arrow right - outbound -->
+  <path d="M46 36 L58 36" fill="none" stroke="url(#gw)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M58 36 L52 32 L52 40 Z" fill="url(#gw)"/>
+</svg>

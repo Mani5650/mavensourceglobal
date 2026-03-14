@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 100" width="280" height="100">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37"/>
+      <stop offset="100%" style="stop-color:#B8860B"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B9C9F"/>
+      <stop offset="100%" style="stop-color:#2d7a7d"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(8, 8)">
+    <rect x="14" y="22" width="36" height="28" rx="2" fill="url(#teal)" stroke="rgba(255,255,255,0.35)" stroke-width="1"/>
+    <path d="M14 30 L50 30" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <path d="M6 36 L18 36" fill="none" stroke="url(#gold)" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M18 36 L12 32 L12 40 Z" fill="url(#gold)"/>
+    <path d="M46 36 L58 36" fill="none" stroke="url(#gold)" stroke-width="2" stroke-linecap="round"/>
+    <path d="M58 36 L52 32 L52 40 Z" fill="url(#gold)"/>
+  </g>
+  <g fill="currentColor">
+    <text x="90" y="42" font-family="Georgia, serif" font-size="28" font-weight="700" letter-spacing="0.02em">MavenSource</text>
+    <text x="90" y="62" font-family="Georgia, serif" font-size="14" font-weight="600" letter-spacing="0.15em" opacity="0.9">GLOBAL</text>
+  </g>
+  <line x1="90" y1="68" x2="270" y2="68" stroke="url(#gold)" stroke-width="1"/>
+</svg>
